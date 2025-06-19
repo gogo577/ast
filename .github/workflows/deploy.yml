@@ -10,6 +10,8 @@ on:
   push:
     branches: 
       - master
+    paths:
+      - "README.md"
 
 # 当前流程要执行的任务，可以是多个。[my_first_job]就是一个任务
 jobs:
