@@ -1,4 +1,5 @@
 ---
 const { title, url } = Astro.props;
+let BASE=import.meta.env.BASE_URL
 ---
-<li><a href={url}>{title}</a></li>
+<li><a href={BASE+url}>{title}</a></li>
