@@ -13,5 +13,12 @@
     "@astrojs/rss": "^4.0.12",
     "astro": "^5.8.2",
     "preact": "^10.26.9"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "dayjs": "^1.11.13",
+    "i": "^0.3.7",
+    "lodash": "^4.17.21",
+    "npm": "^11.4.2"
   }
 }
